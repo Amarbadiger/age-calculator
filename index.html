@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life-Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background">
+        <div class="container" id="beforeToggle">
+            <h1>Please Enter Your DOB</h1>
+        </div>
+        <div id="afterToggle" class="afterToggle">
+            <div class="con">
+                <h1>Breaking Down Your Lifespan</h1>
+            </div>
+            <div class="time-container">
+                <h2>
+                    <div id="year">0</div>
+                    year
+                </h2>
+                <h2>
+                    <div id="months">0</div>
+                    months
+                </h2>
+                <h2>
+                    <div id="days">0</div>
+                    days
+                </h2>
+                <h2>
+                    <div id="hours">0</div>
+                    hours
+                </h2>
+                <h2>
+                    <div id="minutes">0</div>
+                    minutes
+                </h2>
+                <h2>
+                    <div id="second">0</div>
+                    second
+                </h2>
+            </div>
+
+
+        </div>
+        <div class="setting">
+            <div class="icon" id="settingIcon">
+                <img src="images/gear.svg" alt="gear" width="40px" id="gear">
+            </div>
+            <div class="settingContent hide" id="settingContent" >
+                <input type="date" id="dateinput">
+                <button id="submit">Add DOB</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
